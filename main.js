@@ -1,17 +1,13 @@
 const monday = document.getElementById("monday")
-var mondayContent = document.querySelector("#monday-content");
+var quoteContent = document.querySelector("#quote-content");
 const tuesday = document.getElementById("tuesday")
-const tuesdayContent = document.querySelector("#tuesday-content");
 const wednesday = document.getElementById("wednesday")
-const wednesdayContent = document.querySelector("#wednesday-content");
 const thursday = document.getElementById("thursday")
-const thursdayContent = document.querySelector("#thursday-content");
 const friday = document.getElementById("friday")
-const fridayContent = document.querySelector("#friday-content");
 const saturday = document.getElementById("saturday")
-const saturdayContent = document.querySelector("#saturday-content");
+
 const sunday = document.getElementById("sunday")
-const sundayContent = document.querySelector("#sunday-content");
+
 
 
 monday.addEventListener('click',()=>{
@@ -25,7 +21,7 @@ const mondayBox = new WinBox({
       bottom:50,
       left:50,
       class:"text",
-      mount: mondayContent,
+      mount: quoteContent,
 }) 
 })
 
@@ -41,7 +37,7 @@ tuesday.addEventListener('click',()=>{
           bottom:50,
           left:250,
           class:"text",
-          mount: mondayContent,
+          mount: quoteContent,
     }) 
 })
 wednesday.addEventListener('click',()=>{
@@ -55,7 +51,7 @@ wednesday.addEventListener('click',()=>{
           bottom:50,
           left:150,
           class:"text",
-          mount: mondayContent, 
+          mount: quoteContent, 
         }) 
 })
 thursday.addEventListener('click',()=>{
@@ -69,7 +65,7 @@ thursday.addEventListener('click',()=>{
           bottom:150,
           left:230,
           class:"text",
-          mount: mondayContent,  
+          mount: quoteContent,  
         })
 })
 friday.addEventListener('click',()=>{
@@ -83,7 +79,7 @@ friday.addEventListener('click',()=>{
           bottom:50,
           left:290,
           class:"text",
-          mount: mondayContent,
+          mount: quoteContent,
         }) 
 })
 saturday.addEventListener('click',()=>{
@@ -97,7 +93,7 @@ saturday.addEventListener('click',()=>{
           bottom:50,
           left:320,
           class:"text",
-          mount: mondayContent,
+          mount: quoteContent,
         }) 
 })
 sunday.addEventListener('click',()=>{
@@ -111,7 +107,7 @@ sunday.addEventListener('click',()=>{
           bottom:50,
           left:340,
           class:"text",
-          mount: mondayContent, 
+          mount: quoteContent, 
         })
 })
 
