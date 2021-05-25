@@ -1,12 +1,11 @@
 const monday = document.getElementById("monday")
-var quoteContent = document.querySelector("#quote-content");
 const tuesday = document.getElementById("tuesday")
 const wednesday = document.getElementById("wednesday")
 const thursday = document.getElementById("thursday")
 const friday = document.getElementById("friday")
 const saturday = document.getElementById("saturday")
-
 const sunday = document.getElementById("sunday")
+var quoteContent = document.querySelector("#quote-content");
 
 
 
