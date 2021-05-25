@@ -115,7 +115,7 @@ function getRandomQuote(){
     fetch("https://api.quotable.io/random")
     .then(response => response.json())
     .then(data => {
-     mondayContent.innerHTML = `${data.content}`;
+     quoteContent.innerHTML = `${data.content}`;
     });
 }
 
